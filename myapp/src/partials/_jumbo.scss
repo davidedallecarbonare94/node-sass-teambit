@@ -1,0 +1,46 @@
+.jumbo{
+    display: flex;
+    padding-top: 3rem;
+    width: 90%;
+    margin: 0 auto;
+
+    .image img{
+        width: 95%;
+    }
+    .text{
+        width: 100%;
+        .main_text{
+            font-size: 2.5rem;
+            line-height: 5rem
+        }
+        p{
+            font-size: 1.25rem;
+            line-height: 2rem;
+            padding-bottom: 4rem;
+        }
+        .or{
+            padding: 10px;
+        }
+        
+        .buttons{
+            display: flex;
+            align-items: center;
+            padding-bottom: 1rem;
+            button{
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                color: white;
+                font-weight: 700;
+                background-color: rgba(44, 71, 146, 1);
+                border-radius: 5px;
+                box-shadow: none;
+            }
+            img{
+                height: 20px;
+                padding-right: 5px;
+                
+            }
+        }
+    }
+}
