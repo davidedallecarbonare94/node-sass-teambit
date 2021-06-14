@@ -1,0 +1,17 @@
+.orange_section{
+    background-color: rgba(255, 231, 210, 1);
+    width: 90%;
+    margin: 0 auto;
+    .orange_images{
+        display: flex;
+        .orange_image{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            img{
+                width: 40%;
+            }
+        }
+    }
+}

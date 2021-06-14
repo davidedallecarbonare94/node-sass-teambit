@@ -98,3 +98,20 @@ body {
   height: 20px;
   padding-right: 5px;
 }
+
+.orange_section {
+  background-color: #ffe7d2;
+  width: 90%;
+  margin: 0 auto;
+}
+.orange_section .orange_images {
+  display: flex;
+}
+.orange_section .orange_images .orange_image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.orange_section .orange_images .orange_image img {
+  width: 40%;
+}
